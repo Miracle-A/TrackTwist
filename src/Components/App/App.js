@@ -7,6 +7,7 @@ import Playlist from "../Playlist/Playlist";
 
 import Spotify from "../../util/Spotify";
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -69,7 +70,7 @@ search(term){
   render() {
     return (
       <div>
-  <h1>Ja<span className="highlight">mmm</span>ing</h1>
+  <h1>TRACK<span className="highlight">TWIST</span></h1>
   <div className="App">
     <SearchBar onSearch={this.search} />
     <div className="App-playlist">

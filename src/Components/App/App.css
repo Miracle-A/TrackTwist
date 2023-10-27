@@ -29,7 +29,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url('./background_Photo.avif');
+  background-image: url('./background_Photo.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
