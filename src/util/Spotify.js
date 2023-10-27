@@ -1,6 +1,9 @@
 
 const clientId = '927f26ed51b04b859ddf0ed8c7e590e8';  // TODO: Secure this Client ID
-const redirectUri = 'http://localhost:3001';
+const redirectUri = process.env.NODE_ENV === 'production' 
+    ? 'https://tracktwist.netlify.app/' 
+    : 'http://localhost:3001';
+
 let accessToken;
 
 const Spotify = {
